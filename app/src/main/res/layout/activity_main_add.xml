@@ -1,0 +1,84 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    android:gravity="center">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ADDITION"
+        android:textColor="#000000"
+        android:textSize="23dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+
+        >
+
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NUMBER 1:"
+        android:textColor="#000000"
+        android:textSize="23dp"
+        android:layout_marginTop="100dp"
+
+        >
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/anum1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter number1"
+        android:minHeight="48dp"
+        android:textColor="@color/black"
+        android:textColorHint="	#D3D3D3">
+
+    </EditText>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NUMBER 2:"
+        android:textColor="#000000"
+        android:textSize="23dp"
+
+
+        >
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/anum2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter number2"
+        android:minHeight="48dp"
+        android:textColor="@color/black"
+        android:textColorHint="	#D3D3D3">
+
+    </EditText>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CALCULATE"
+        android:layout_margin="30dp"
+        android:textSize="25dp"
+        android:id="@+id/cal1">
+
+    </androidx.appcompat.widget.AppCompatButton>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BACK TO MAIN PAGE"
+        android:layout_margin="30dp"
+        android:textSize="25dp"
+        android:id="@+id/back1">
+
+    </androidx.appcompat.widget.AppCompatButton>
+
+
+
+</LinearLayout>
